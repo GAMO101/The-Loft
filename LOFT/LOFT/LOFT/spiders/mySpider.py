@@ -16,7 +16,7 @@ class MySpider(scrapy.Spider):
     # Custom settings for the spider
     custom_settings = {
         'FEEDS': {
-            'dataClean2.json': {
+            'loft.json': {
                 'format': 'json',
                 'overwrite': True,  # If the file already exists, it will overwrite it
                 'indent': 4,  # Better readable

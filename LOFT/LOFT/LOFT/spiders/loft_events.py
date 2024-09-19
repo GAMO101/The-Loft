@@ -14,9 +14,9 @@ if isinstance(data, list) and len(data) > 0:
     events = first_item.get('events', [])
 
     # Tvoj Telegram bot token
-    token = '6714260223:AAHNbs0Zo5fpGVgG205HPPzU4xMmD4bXd3k'
+    token = '7162097876:AAE27cvUGt6tUzuX3NI9VoNnoUsbNYYnBUM'
     method = "sendMessage"
-    chat_id = -1002392549172  # ID Telegram skupiny
+    chat_id = -1002278281776  # ID Telegram skupiny
 
     # Inicializácia prázdneho zoznamu pre uloženie neúspešných odoslaní
     failed_events = []
